@@ -60,7 +60,7 @@ img {
 }
 .text-area {
   width: 90%;
-  height: 85px;
+  height: 55px;
 }
 .send-btn {
   margin-left: 5px;
@@ -73,7 +73,7 @@ img {
   padding: 13px;
 }
 .messages-div {
-  height: 500px;
+  height: 55px;
   overflow: auto;
 }
 .name-heading {
@@ -83,4 +83,8 @@ img {
 }
 .marg-left-10 {
   margin-left: 10px;
+}
+.form-group{
+  align: center;
+  width: 50%;
 }

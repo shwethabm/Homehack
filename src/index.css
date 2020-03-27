@@ -1,7 +1,9 @@
 body {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 20px;
+  margin: 0px auto;
+  max-width: 0 20px;
+  padding: 0px 80px;
+  align: center;
+  margin-left: 100px;
 }
 
 .container {
@@ -60,7 +62,7 @@ img {
 }
 .text-area {
   width: 90%;
-  height: 85px;
+  height: 50px;
 }
 .send-btn {
   margin-left: 5px;
@@ -68,6 +70,7 @@ img {
 }
 .textarea-div {
   overflow: hidden;
+  
 }
 .padding-13 {
   padding: 13px;
@@ -83,4 +86,36 @@ img {
 }
 .marg-left-10 {
   margin-left: 10px;
+}
+.form-group{
+  align: center;
+  width:100%;
+}
+.card{
+  align:center;
+  width:50%;
+  background-color:rgb(204, 82, 106)
+
+}
+.form-control{
+  width:100%;
+}
+.name-heading{
+  height:30px;
+}
+.marg-left-10{
+  height:30px;
+}
+.navbar{
+ position:fixed;
+ left:10px;
+ width:130px;
+ height:100%;
+ background-color:crimson;
+ font-size: 26px;
+}
+a{
+  position:fixed;
+  top:10px;
+  color:white;
 }

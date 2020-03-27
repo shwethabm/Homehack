@@ -45,8 +45,9 @@ export default class Chat extends Component {
   render() {
     return (
       <div>
+        <nav class="navbar"><a href="http://localhost:3000/group#/chat">{this.state.groupname}</a></nav>
         <div className="padding-13 messages-div">
-            <h2>Chat Messages : {this.state.groupname}</h2>
+            
             {this.state.messages.map((message) => {
              const _class = message.user === this.state.username ? 'message-left container' : 'message-right container';
             return (

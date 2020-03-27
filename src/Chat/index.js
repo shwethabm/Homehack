@@ -15,6 +15,6 @@ ReactDOM.render(
     
     <Route exact path="/" component={App}></Route>
     <Route exact path="/group/" component={Group}></Route>
-    <Route exact path="/chat/" name="chat" component={Chat}></Route></div>
+    <Route exact path="/chat" name="chat" component={Chat}></Route></div>
 </HashRouter>, document.getElementById('root'));
 registerServiceWorker.unregister();

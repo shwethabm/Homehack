@@ -40,10 +40,12 @@ export default class User extends Component {
     return(
       
     
-    <div className="form-group col-md-4">
+    <div className="form-group">
+         <br></br>
         <label >Username: </label>
         <input className="form-control input-sm" type="text"  onChange={this.onNameChange.bind(this)}/>
-        <button className="btn btn-info" onClick={this.onAddClick.bind(this)}>Add</button>
+        <br></br>
+        <button className="btn btn-info" onClick={this.onAddClick.bind(this)}>Submit</button>
     </div>
     );
   }
