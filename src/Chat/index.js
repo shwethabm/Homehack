@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import User from './Chat/User';
-import Chat from './Chat/Chat';
-import Group from './Chat/Group';
+import App from '../App';
+import User from './User';
+
+import Group from './Group';
 
 import { HashRouter, Route } from 'react-router-dom'
 import * as registerServiceWorker from './registerServiceWorker';
